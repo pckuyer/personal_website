@@ -1,4 +1,8 @@
 import './style.css';
 
-console.log("test")
+document.addEventListener("load", function () {
+
+	console.log("test")
+
+})
 
