@@ -5,10 +5,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
 <body>
-    <h1 class="text-4xl text-blue-700">My Webpack + Tailwind App</h1>
+	
+		<nav class="navbar bg-base-100 fixed">
+		  <div class="flex-1">
+		    <a class="btn btn-ghost normal-case text-xl">PCK</a>
+		  </div>
+		  <div class="flex-none">
+		    <ul class="menu menu-horizontal px-1">
+		      <li tabindex="0"><a href="#pink">Pink</a></li>		 
+		      <li tabindex="1"><a href="#blue">Blue</a></li>		 
+		      <li tabindex="2"><a href="#red">Red</a></li>		 
+		      <li tabindex="3"><a href="#yellow">Yellow</a></li>		 
+		    </ul>
+		  </div>
+		</nav>		
 
-    <div class="container">
-    	<button class="btn btn-primary">button</button>
-    </div>
+
+    
+
+    <section class="min-h-screen bg-pink-500" id="pink">pink
+
+    	<h1 class="text-4xl text-white fixed"></h1>
+
+    </section>
+    <section class="min-h-screen bg-blue-500" id="blue">blue</section>
+    <section class="min-h-screen bg-red-500" id="red">red</section>
+    <section class="min-h-screen bg-yellow-500" id="yellow">yellow</section>
+
+
 </body>
 </html>
