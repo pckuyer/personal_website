@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth" data-theme="cupcake">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	
-		<nav class="navbar bg-base-100 fixed">
-		  <div class="flex-1">
-		    <a class="btn btn-ghost normal-case text-xl">PCK</a>
-		  </div>
-		  <div class="flex-none">
-		    <ul class="menu menu-horizontal px-1">
-		      <li tabindex="0"><a href="#pink">Pink</a></li>		 
-		      <li tabindex="1"><a href="#blue">Blue</a></li>		 
-		      <li tabindex="2"><a href="#red">Red</a></li>		 
-		      <li tabindex="3"><a href="#yellow">Yellow</a></li>		 
-		    </ul>
-		  </div>
-		</nav>		
+	<nav class="navbar bg-base-100 fixed z-20">
+		<div class="flex-1">
+	    	<a class="btn btn-ghost normal-case text-xl">PCK</a>
+		</div>
+	 	<div class="flex-none">
+	    	<ul class="menu menu-horizontal px-1">
+	      		<li tabindex="0"><a class="transition-none" href="#pink">Pink</a></li>	 
+	      		<li tabindex="1"><a class="transition-none" href="#blue">Blue</a></li>
+	      		<li tabindex="2"><a class="transition-none" href="#red">Red</a></li>
+	      		<li tabindex="3"><a class="transition-none" href="#yellow">Yellow</a></li>		 
+	    	</ul>
+	  	</div>
+	</nav>		
 
 
     
 
-    <section class="min-h-screen bg-pink-500" id="pink">pink
-
-    	<h1 class="text-4xl text-white fixed"></h1>
-
+    <section class="min-h-screen bg-pink-500 pt-16" id="pink">
+    	<h1 class="text-4xl text-white">hoi</h1>
     </section>
-    <section class="min-h-screen bg-blue-500" id="blue">blue</section>
-    <section class="min-h-screen bg-red-500" id="red">red</section>
-    <section class="min-h-screen bg-yellow-500" id="yellow">yellow</section>
 
+    <section class="min-h-screen bg-blue-500 grid place-items-center" id="blue">
+    	<div class="panel bg-green-500 h-96 w-96">hoi</div>
+    </section>
+    <section class="min-h-screen bg-red-500" id="red"></section>
+    <section class="min-h-screen bg-yellow-500" id="yellow"></section>
+
+    <div class="green z-10 w-full bg-green-500 min-h-screen m-auto text-white">hello</div>
+
+
+    <div class="min-h-screen">hello</div>
 
 </body>
 </html>
